@@ -371,9 +371,9 @@ ADDR = (SERVER, int(PORT))
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(ADDR)
 conexion = psycopg.connect(
-	host="localhost",
+	host="mis-ids.cxqyqieeszi7.eu-north-1.rds.amazonaws.com",
 	dbname="mis_ids",
-	user="admin",
+	user="postgres",
 	password="password",
 	port="5432"
 )
